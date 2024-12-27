@@ -5,20 +5,13 @@ This project analyzes text data from the r/veteransbenefits subreddit to support
 
 Repository Structure
 
-clean_and_tokenize.py
-Cleans raw subreddit text by removing unwanted characters, normalizing case, and tokenizing words.
+clean_and_tokenize.py - Cleans raw subreddit text by removing unwanted characters, normalizing case, and tokenizing words.
 
-eda_analysis_combined.py
+eda_analysis_combined.py - Performs exploratory data analysis (EDA), merges post and comment data, generates word clouds, and produces an Excel file listing the most common 2- to 4-word n-grams.
 
-Performs exploratory data analysis (EDA), merges post and comment data, generates word clouds, and produces an Excel file listing the most common 2- to 4-word n-grams.
+lda.py - Conducts topic modeling using Latent Dirichlet Allocation (LDA). Outputs an LDA model file (lda_model_V2.model) and an interactive visualization (lda_visualization_V2.html).
 
-lda.py
-
-Conducts topic modeling using Latent Dirichlet Allocation (LDA). Outputs an LDA model file (lda_model_V2.model) and an interactive visualization (lda_visualization_V2.html).
-
-ngram_sentiment_analysis.py
-
-Uses VADER sentiment analysis on the most frequently occurring n-grams, creating heatmaps that highlight the positive and negative sentiment tied to specific terms.
+ngram_sentiment_analysis.py - Uses VADER sentiment analysis on the most frequently occurring n-grams, creating heatmaps that highlight the positive and negative sentiment tied to specific terms.
 
 Key Insights
 
@@ -30,9 +23,3 @@ Implication for Chatbot: The data confirms veterans often struggle with complex 
 
 Conclusion
 This analysis demonstrates how an AI-driven tool can address veterans’ most frequent and difficult pain points. By combining topic modeling, sentiment analysis, and n-gram insights, we gathered clear evidence that a chatbot specializing in benefits navigation would provide significant value to the veteran community.
-
-
-
-
-
-
