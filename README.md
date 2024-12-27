@@ -1,9 +1,9 @@
 # VABenefits
-Project Overview
+Project Overview:
 
 This project analyzes text data from the r/veteransbenefits subreddit to support the creation of an AI chatbot that assists U.S. Veterans with their benefits applications. The goal is to uncover key pain points, reveal frequently discussed topics, and provide data-driven evidence that an automated chatbot could significantly improve the veteran experience.
 
-Repository Structure
+Repository Structure:
 
 clean_and_tokenize.py - Cleans raw subreddit text by removing unwanted characters, normalizing case, and tokenizing words.
 
@@ -13,7 +13,7 @@ lda.py - Conducts topic modeling using Latent Dirichlet Allocation (LDA). Output
 
 ngram_sentiment_analysis.py - Uses VADER sentiment analysis on the most frequently occurring n-grams, creating heatmaps that highlight the positive and negative sentiment tied to specific terms.
 
-Key Insights
+Key Insights:
 
 High Discussion Topics: C&P exams, service connection, and mental health are mentioned thousands of times with closely split sentiment (both positive and negative), suggesting these are core concerns for veterans.
 
@@ -24,5 +24,6 @@ Positive Sentiment Standouts: Effective dates, GI Bill benefits, and healthcare 
 Implication for Chatbot: The data confirms veterans often struggle with complex processes and inconsistent outcomes. A well-designed chatbot offering guidance, clarity on paperwork, and emotional support could dramatically improve the user experience.
 
 
-Conclusion
+Conclusion: 
+
 This analysis demonstrates how an AI-driven tool can address veterans’ most frequent and difficult pain points. By combining topic modeling, sentiment analysis, and n-gram insights, we gathered clear evidence that a chatbot specializing in benefits navigation would provide significant value to the veteran community.
