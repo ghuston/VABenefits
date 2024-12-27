@@ -16,8 +16,11 @@ ngram_sentiment_analysis.py - Uses VADER sentiment analysis on the most frequent
 Key Insights
 
 High Discussion Topics: C&P exams, service connection, and mental health are mentioned thousands of times with closely split sentiment (both positive and negative), suggesting these are core concerns for veterans.
+
 Negative Sentiment Hotspots: Hearing loss, Gulf War toxic exposures, and denied service connections stand out as major frustrations. Mental health conditions like anxiety and depression also show elevated negative sentiment.
+
 Positive Sentiment Standouts: Effective dates, GI Bill benefits, and healthcare services draw strong approval, signaling these areas are working well for many veterans.
+
 Implication for Chatbot: The data confirms veterans often struggle with complex processes and inconsistent outcomes. A well-designed chatbot offering guidance, clarity on paperwork, and emotional support could dramatically improve the user experience.
 
 
